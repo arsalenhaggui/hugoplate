@@ -1,0 +1,83 @@
+{
+  "file": "exampleSite/content/english/sections/testimonial.md",
+  "name": "sections",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "enable",
+      "label": "Enable",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": false
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "testimonials",
+      "label": "Testimonials",
+      "type": "Array",
+      "value": [],
+      "description": "Testimonials",
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "designation",
+          "label": "Designation",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "avatar",
+          "label": "Avatar",
+          "type": "media",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        }
+      ]
+    },
+    {
+      "name": "build",
+      "label": "Build",
+      "type": "object",
+      "description": "don't create a separate page",
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "render",
+          "label": "Render",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}
